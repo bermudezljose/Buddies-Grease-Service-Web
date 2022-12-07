@@ -297,7 +297,7 @@ CONTACT FORM STARTS HERE
 /*Responsive Design*/
 @media (max-width: 991px) {
   body {
-    background: rgb(74, 128, 87);
+    background-color: rgb(74, 128, 87);
   }
   .contactUs {
     padding: 20px;
