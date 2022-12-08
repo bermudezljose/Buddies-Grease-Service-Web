@@ -6,11 +6,14 @@
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 32px;
   font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
   margin: 4% auto;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
 }
 
 h2 {
@@ -20,11 +23,16 @@ h2 {
 }
 
 /*Containers to display services*/
-
 .title {
-  font-family: sans-serif;
-  padding: 20px;
-  font-size: 25.6px;
+  color: rgb(30, 160, 62);
+}
+.title:before,
+.title:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid rgb(39, 167, 56);
+  border-radius: 2px;
+  margin: auto;
 }
 
 .services {
@@ -230,7 +238,28 @@ main ul li {
 
 /*Grease Pick Up Service Section*/
 .Info {
+  background-color: rgb(243, 243, 243);
   text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+h2 .Info {
+  font-family: sans-serif;
+  font-size: 25.6px;
+}
+
+.Info div {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgb(37, 168, 48);
+  font-family: sans-serif;
+}
+
+.Info div p {
+  color: #000;
 }
 
 /*Responsive Design*/
