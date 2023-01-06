@@ -15,7 +15,6 @@ h1 {
 
 h2 {
   font-family: sans-serif;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -119,6 +118,130 @@ body {
     margin-inline-end: 0px;
     display: block;
   }
+
+  .hook {
+    display: block;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 60px;
+    background-color: white;
+  }
+
+  .hook h2 {
+    font-weight: 600;
+    color: #1d1d1f;
+    display: block;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0.83em;
+    margin-block-start: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .hook p {
+    display: block;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+  }
+
+  .hook h2 .paid {
+    color: #11a728;
+  }
+
+  /*Section Establisments*/
+  #wrapper {
+    max-width: auto;
+    flex-wrap: wrap;
+    align-items: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    width: auto;
+    background-color: white;
+  }
+  .establishments {
+    background-color: #e6e6e6;
+    padding-top: 50px;
+
+    display: block;
+    text-align: center;
+  }
+
+  .establishments h2 {
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d1d1f;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+  }
+
+  .establishments .list {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    margin: 0 15px 0 15px;
+  }
+
+  .serviceArea {
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .serviceArea h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: 0.004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d1d1f;
+    padding-top: 8px;
+  }
+  .serviceArea .locations {
+    text-align: center;
+    padding: 0 10px;
+    margin: 10px;
+    width: 100%;
+  }
+
+  .serviceArea .list {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    margin: 0 15px 0 15px;
+  }
+
   .toggle-button {
     display: flex;
   }
